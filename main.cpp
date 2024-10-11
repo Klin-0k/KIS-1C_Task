@@ -72,7 +72,7 @@ std::string Vocabulary::PredictWord(const std::string& prefix) {
 
 std::string Vocabulary::PredictPrevWordWithNewSymbols(const std::string& prefix) {
   std::string result = prev_prefix_ + PredictWord(prefix, prev_node_);
-  prev_prefix_ = prefix;
+  prev_prefix_ = prev_prefix_ + prefix;
   return result;
 }
 

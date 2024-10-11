@@ -1,0 +1,11 @@
+add_text
+pelun pelun pehrr
+predict
+pe
+predict_prev_with_new_symbols
+h
+add_text
+pehem pehem pehem
+predict
+pe
+exit
